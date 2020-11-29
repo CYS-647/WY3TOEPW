@@ -14,12 +14,28 @@ In Canada, we are fortunate to have access to both Typical Year weather files an
 Previously, I worked on a paper detailing a method to convert historical weather data stored in wy3 format into simulation ready weather files in epw format (a link is included below for those who are interested to learn more). To demonstrate the method in practice, a script written using the MATLAB syntax is submitted with the paper. While MATLAB is a common language used by the research community, licenses are relatively expensive for average users. In the spirit of making the converter more accessible to average users, I decided to write a new script in Python - a popular open source language.  
 
 ## How to use this tool
+1. Download the script and place it in the desired folder [an sample folder structure is illustrated below]
 
 
-1. Download the script and place it in the desired folder [an example folder structure is illustrated below]
+
+2. Download weather data from the Environment and Climate Change Canada website. Place files in the appropriate folders
 
 
-2. Download weather data from the Environment and Climate Change Canada Website. Place files in the appropriate folders
+3. Check open the script, check the relative paths to sure they are correct. 
 
 
-3. 
+4. Run the script
+
+
+## Relevant links
+Weather Datasets published - by Environment and Climate Change Canada
+https://climate.weather.gc.ca/prods_servs/engineering_e.html
+
+EnergyPlus Weather File (EPW) Data Dictionary - Big Ladder Software
+https://bigladdersoftware.com/epx/docs/8-3/auxiliary-programs/energyplus-weather-file-epw-data-dictionary.html
+
+Calculation of Relative Humidity by Australian Government - Bureau of Meteorology
+http://www.bom.gov.au/climate/averages/climatology/relhum/calc-rh.pdf
+
+Method for converting CWEEDs weather files to EPW format for multiyear simulation of building thermal dynamics - by CY Siu and Z Liao
+https://www.sciencedirect.com/science/article/pii/S2215016120302363
