@@ -20,7 +20,14 @@ Previously, I worked on a paper detailing a method to convert historical weather
 
 3. Check open the script, check and change relative paths accordingly 
 
-4. Run the script
+4. Run the script 
+* a. Load required libraries 
+* b. Load functions located at the bottom of the jupyter notebook
+* c. Run either Option 1 or Option 2 of script
+    * Option 1 - Single location: reads in historical and typical weather data to produce epw weather files for each year
+    * Option 2 - Batch Process : reads in files stored in designated folders, matches historical and typical weather data based on weather station number, batch           process the mathced weather data and produces epw weather files for each year at each location. 
+      
+  
 
 ## Relevant links
 Weather Datasets published - by Environment and Climate Change Canada
